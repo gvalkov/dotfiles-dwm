@@ -33,3 +33,6 @@
 *.su
 
 dwm
+*.orig
+*.diff
+*.rej
