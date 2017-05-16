@@ -70,11 +70,10 @@ static Key keys[] = {
 	{ MODKEY,                       XK_a,      spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_f,      spawn,          {.v = browsercmd } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = emacscmd } },
-
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_Tab,    swapfocus,      {0} },
 	{ MODKEY,                       XK_Right,  shiftview,      {.i = +1 } },
-	{ MODKEY,                       XK_sLeft,  shiftview,      {.i = -1 } },
+	{ MODKEY,                       XK_Left,   shiftview,      {.i = -1 } },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
